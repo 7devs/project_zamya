@@ -1,7 +1,7 @@
 {
     "button": [
         {
-            "name": "菜单1",
+            "name": "order",
             "sub_button": [
                 {
                     "name": "子菜单",
