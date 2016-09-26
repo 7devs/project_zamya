@@ -1,7 +1,7 @@
 var app = require('express')(),
     bodyParser = require('body-parser');
-    //wechat = require('.lib/wechat.js');
-    conf = require('./lib/conf.js');
+    wechat = require('./lib/wechat.js');
+    conf = require('./lib/config.js');
 
 app.use(bodyParser.urlencoded({
     extended: false
